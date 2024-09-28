@@ -90,6 +90,7 @@ xmlns:tools="http://schemas.android.com/tools"
                 android:orientation="horizontal">
 
                 <EditText
+                    android:id="@+id/input_Temprature"
                     android:layout_width="0dp"
                     android:layout_height="25dp"
                     android:layout_weight="1"
@@ -103,16 +104,19 @@ xmlns:tools="http://schemas.android.com/tools"
                     />
 
                 <Button
+                    android:id="@+id/celsius"
                     android:layout_width="30dp"
                     android:layout_height="25dp"
                     android:layout_marginStart="10dp"
                     android:background="@drawable/rounded_button"
                     android:padding="0dp"
                     android:text="@string/C"
-                    android:textColor="@color/blue"
+                    android:textColor="@drawable/rounded_button"
                     android:textSize="12sp"
                     tools:ignore="SmallSp" />
                 <Button
+                    android:id="@+id/fahrenheit"
+
                     android:layout_width="30dp"
                     android:layout_height="25dp"
                     android:layout_marginStart="5dp"
@@ -120,8 +124,7 @@ xmlns:tools="http://schemas.android.com/tools"
                     android:text="@string/F"
                     android:textSize="12sp"
                     android:gravity="center"
-
-                    android:textColor="@color/blue"
+                    android:textColor="@drawable/rounded_button"
                     android:background="@drawable/rounded_button"
                     tools:ignore="smallSp" />
             </LinearLayout>
@@ -144,6 +147,7 @@ xmlns:tools="http://schemas.android.com/tools"
                 android:textSize="12sp" />
 
             <TextView
+                android:id="@+id/result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
