@@ -3,9 +3,10 @@
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
 
-    <color name="blue">#0000FF</color>
-    <color name="gry">#9090A6</color>
+    <color name="blue">#2596be</color>
+    <color name="gry">#202020</color>
     <color name="hintText">#E0E0E0</color>
+    <color name="borderColor">#242121</color>
 
 
 
