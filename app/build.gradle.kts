@@ -33,4 +33,9 @@ android {
 dependencies {
 
     implementation(libs.play.services.wearable)
+    implementation(libs.appcompat)
+    implementation(libs.material)
+    implementation(libs.activity)
+    implementation(libs.constraintlayout)
+    implementation(libs.wear)
 }
